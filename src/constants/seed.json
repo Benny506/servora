@@ -1,0 +1,1170 @@
+{
+  "places": [
+    {
+      "id": "plc_001",
+      "type": "place",
+      "name": "Verdant Spoon",
+      "category": "restaurant",
+      "subcategory": "vegan",
+      "description": "A cozy vegan restaurant offering organic plant-based meals and fresh juices.",
+      "location": {
+        "address": "12 Willow Street",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.7121,
+        "lng": -73.9911
+      },
+      "contact": {
+        "phone": "+10000000001",
+        "email": "hello@verdantspoon.com",
+        "website": "https://verdantspoon.fake"
+      },
+      "meta": {
+        "rating": 4.6,
+        "price_range": "$$",
+        "tags": [
+          "vegan",
+          "organic",
+          "healthy",
+          "eco-friendly"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "09:00 - 22:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/verdant/400/300"
+      ]
+    },
+    {
+      "id": "plc_002",
+      "type": "place",
+      "name": "Grand Aurora Hotel",
+      "category": "hotel",
+      "subcategory": "luxury",
+      "description": "A premium hotel offering skyline views, spa services, and fine dining.",
+      "location": {
+        "address": "88 Skyline Avenue",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.715,
+        "lng": -73.982
+      },
+      "contact": {
+        "phone": "+10000000002",
+        "email": "stay@aurorahotel.fake",
+        "website": "https://aurorahotel.fake"
+      },
+      "meta": {
+        "rating": 4.9,
+        "price_range": "$$$$",
+        "tags": [
+          "luxury",
+          "spa",
+          "city-view",
+          "5-star"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "check_in": "14:00",
+        "check_out": "11:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/hotel1/400/300"
+      ]
+    },
+    {
+      "id": "plc_003",
+      "type": "place",
+      "name": "CineNova IMAX",
+      "category": "cinema",
+      "subcategory": "imax",
+      "description": "State-of-the-art cinema with immersive IMAX experience and luxury seating.",
+      "location": {
+        "address": "5 Orion Plaza",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.718,
+        "lng": -73.980
+      },
+      "contact": {
+        "phone": "+10000000003",
+        "website": "https://cinenova.fake"
+      },
+      "meta": {
+        "rating": 4.7,
+        "price_range": "$$$",
+        "tags": [
+          "imax",
+          "3d",
+          "premium",
+          "family"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "10:00 - 01:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/cinema1/400/300"
+      ]
+    },
+    {
+      "id": "plc_004",
+      "type": "place",
+      "name": "Silverline General Hospital",
+      "category": "hospital",
+      "subcategory": "general",
+      "description": "24/7 hospital providing emergency and specialized medical services.",
+      "location": {
+        "address": "200 Care Blvd",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.720,
+        "lng": -73.970
+      },
+      "contact": {
+        "phone": "+10000000004",
+        "website": "https://silverline.fake"
+      },
+      "meta": {
+        "rating": 4.3,
+        "price_range": "$$$",
+        "tags": [
+          "24/7",
+          "emergency",
+          "healthcare"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/hospital1/400/300"
+      ]
+    },
+    {
+      "id": "plc_005",
+      "type": "place",
+      "name": "Sunset Motel",
+      "category": "motel",
+      "subcategory": "budget",
+      "description": "Affordable roadside motel ideal for quick overnight stays.",
+      "location": {
+        "address": "45 Route 9",
+        "city": "Dustown",
+        "country": "Fictionland",
+        "lat": 40.690,
+        "lng": -73.950
+      },
+      "contact": {
+        "phone": "+10000000005"
+      },
+      "meta": {
+        "rating": 3.8,
+        "price_range": "$",
+        "tags": [
+          "budget",
+          "roadside",
+          "quick-stay"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/motel1/400/300"
+      ]
+    },
+    {
+      "id": "plc_006",
+      "type": "place",
+      "name": "Iron Forge Gym",
+      "category": "fitness",
+      "subcategory": "gym",
+      "description": "Modern fitness center with personal training and group classes.",
+      "location": {
+        "address": "77 Titan Street",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.725,
+        "lng": -73.978
+      },
+      "contact": {
+        "phone": "+10000000006"
+      },
+      "meta": {
+        "rating": 4.5,
+        "price_range": "$$",
+        "tags": [
+          "gym",
+          "fitness",
+          "training"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_fri": "06:00 - 23:00",
+        "sat_sun": "08:00 - 20:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/gym1/400/300"
+      ]
+    },
+    {
+      "id": "plc_007",
+      "type": "place",
+      "name": "Blue Harbor Café",
+      "category": "restaurant",
+      "subcategory": "cafe",
+      "description": "Relaxed café serving coffee, pastries, and light meals.",
+      "location": {
+        "address": "9 Harbor Lane",
+        "city": "Seaside",
+        "country": "Fictionland",
+        "lat": 40.730,
+        "lng": -73.940
+      },
+      "contact": {
+        "phone": "+10000000007"
+      },
+      "meta": {
+        "rating": 4.4,
+        "price_range": "$$",
+        "tags": [
+          "coffee",
+          "cafe",
+          "breakfast"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "07:00 - 18:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/cafe1/400/300"
+      ]
+    },
+    {
+      "id": "plc_008",
+      "type": "place",
+      "name": "MetroCare Clinic",
+      "category": "hospital",
+      "subcategory": "clinic",
+      "description": "Walk-in clinic for general consultations and minor treatments.",
+      "location": {
+        "address": "18 Health Street",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.726,
+        "lng": -73.975
+      },
+      "contact": {
+        "phone": "+10000000008"
+      },
+      "meta": {
+        "rating": 4.2,
+        "price_range": "$$",
+        "tags": [
+          "clinic",
+          "walk-in",
+          "healthcare"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sat": "08:00 - 20:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/clinic1/400/300"
+      ]
+    },
+    {
+      "id": "plc_009",
+      "type": "place",
+      "name": "Oakridge High School",
+      "category": "education",
+      "subcategory": "high_school",
+      "description": "Well-established high school with strong academic and sports programs.",
+      "location": {
+        "address": "101 Oak Street",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.735,
+        "lng": -73.960
+      },
+      "contact": {
+        "phone": "+10000000009"
+      },
+      "meta": {
+        "rating": 4.3,
+        "price_range": "$",
+        "tags": [
+          "education",
+          "school",
+          "public"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_fri": "08:00 - 15:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/school1/400/300"
+      ]
+    },
+    {
+      "id": "plc_010",
+      "type": "place",
+      "name": "Greenford Elementary",
+      "category": "education",
+      "subcategory": "elementary",
+      "description": "Community-focused elementary school with modern facilities.",
+      "location": {
+        "address": "55 Maple Ave",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.733,
+        "lng": -73.958
+      },
+      "contact": {
+        "phone": "+10000000010"
+      },
+      "meta": {
+        "rating": 4.5,
+        "price_range": "$",
+        "tags": [
+          "school",
+          "kids",
+          "education"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_fri": "08:30 - 14:30"
+      },
+      "images": [
+        "https://picsum.photos/seed/school2/400/300"
+      ]
+    },
+    {
+      "id": "plc_011",
+      "type": "place",
+      "name": "Starlight Private Academy",
+      "category": "education",
+      "subcategory": "private_school",
+      "description": "Elite private institution known for academic excellence.",
+      "location": {
+        "address": "200 Prestige Blvd",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.742,
+        "lng": -73.970
+      },
+      "contact": {
+        "phone": "+10000000011"
+      },
+      "meta": {
+        "rating": 4.8,
+        "price_range": "$$$",
+        "tags": [
+          "private",
+          "elite",
+          "education"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_fri": "08:00 - 16:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/school3/400/300"
+      ]
+    },
+    {
+      "id": "plc_012",
+      "type": "place",
+      "name": "CityCare Children's Hospital",
+      "category": "hospital",
+      "subcategory": "pediatric",
+      "description": "Specialized hospital for children's healthcare.",
+      "location": {
+        "address": "12 Healing Way",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.745,
+        "lng": -73.965
+      },
+      "contact": {
+        "phone": "+10000000012"
+      },
+      "meta": {
+        "rating": 4.6,
+        "price_range": "$$$",
+        "tags": [
+          "children",
+          "hospital",
+          "emergency"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/hospital2/400/300"
+      ]
+    },
+    {
+      "id": "plc_013",
+      "type": "place",
+      "name": "Nova Diagnostics Center",
+      "category": "hospital",
+      "subcategory": "diagnostic",
+      "description": "Advanced diagnostic lab offering scans and lab testing.",
+      "location": {
+        "address": "88 MedTech Ave",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.748,
+        "lng": -73.960
+      },
+      "contact": {
+        "phone": "+10000000013"
+      },
+      "meta": {
+        "rating": 4.1,
+        "price_range": "$$",
+        "tags": [
+          "lab",
+          "diagnostics",
+          "health"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sat": "07:00 - 19:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/hospital3/400/300"
+      ]
+    },
+    {
+      "id": "plc_014",
+      "type": "place",
+      "name": "UrbanStay Hotel",
+      "category": "hotel",
+      "subcategory": "business",
+      "description": "Business-friendly hotel with conference facilities.",
+      "location": {
+        "address": "300 Central Ave",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.750,
+        "lng": -73.955
+      },
+      "contact": {
+        "phone": "+10000000014"
+      },
+      "meta": {
+        "rating": 4.4,
+        "price_range": "$$$",
+        "tags": [
+          "business",
+          "conference",
+          "wifi"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "check_in": "13:00",
+        "check_out": "11:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/hotel2/400/300"
+      ]
+    },
+    {
+      "id": "plc_015",
+      "type": "place",
+      "name": "QuickBite Burgers",
+      "category": "restaurant",
+      "subcategory": "fast_food",
+      "description": "Fast and affordable burgers and fries.",
+      "location": {
+        "address": "22 Speed Lane",
+        "city": "Dustown",
+        "country": "Fictionland",
+        "lat": 40.700,
+        "lng": -73.940
+      },
+      "contact": {
+        "phone": "+10000000015"
+      },
+      "meta": {
+        "rating": 4.0,
+        "price_range": "$",
+        "tags": [
+          "fast food",
+          "burgers",
+          "cheap"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "10:00 - 23:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/food1/400/300"
+      ]
+    },
+    {
+      "id": "plc_016",
+      "type": "place",
+      "name": "Golden Reel Cinema",
+      "category": "cinema",
+      "subcategory": "standard",
+      "description": "Affordable cinema with multiple screens.",
+      "location": {
+        "address": "77 Movie Street",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.710,
+        "lng": -73.945
+      },
+      "contact": {
+        "phone": "+10000000016"
+      },
+      "meta": {
+        "rating": 4.2,
+        "price_range": "$$",
+        "tags": [
+          "movies",
+          "cinema",
+          "family"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "11:00 - 00:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/cinema2/400/300"
+      ]
+    },
+    {
+      "id": "plc_017",
+      "type": "place",
+      "name": "Riverside Shopping Mall",
+      "category": "shopping",
+      "subcategory": "mall",
+      "description": "Large shopping complex with retail stores and food courts.",
+      "location": {
+        "address": "500 River Road",
+        "city": "Seaside",
+        "country": "Fictionland",
+        "lat": 40.760,
+        "lng": -73.930
+      },
+      "contact": {
+        "phone": "+10000000017"
+      },
+      "meta": {
+        "rating": 4.5,
+        "price_range": "$$",
+        "tags": [
+          "shopping",
+          "mall",
+          "retail"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "09:00 - 22:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/mall1/400/300"
+      ]
+    },
+    {
+      "id": "plc_018",
+      "type": "place",
+      "name": "Night Owl Bar",
+      "category": "entertainment",
+      "subcategory": "bar",
+      "description": "Late-night bar with live music and cocktails.",
+      "location": {
+        "address": "13 Midnight Ave",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.755,
+        "lng": -73.940
+      },
+      "contact": {
+        "phone": "+10000000018"
+      },
+      "meta": {
+        "rating": 4.3,
+        "price_range": "$$$",
+        "tags": [
+          "bar",
+          "nightlife",
+          "music"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "18:00 - 03:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/bar1/400/300"
+      ]
+    },
+    {
+      "id": "plc_019",
+      "type": "place",
+      "name": "SafeTrust Bank",
+      "category": "finance",
+      "subcategory": "bank",
+      "description": "Reliable banking services with modern digital solutions.",
+      "location": {
+        "address": "1 Finance Plaza",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.752,
+        "lng": -73.950
+      },
+      "contact": {
+        "phone": "+10000000019"
+      },
+      "meta": {
+        "rating": 4.0,
+        "price_range": "$$",
+        "tags": [
+          "bank",
+          "finance",
+          "atm"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_fri": "09:00 - 17:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/bank1/400/300"
+      ]
+    },
+    {
+      "id": "plc_020",
+      "type": "place",
+      "name": "FixIt Auto Garage",
+      "category": "repair",
+      "subcategory": "auto_repair",
+      "description": "Full-service auto repair and maintenance center.",
+      "location": {
+        "address": "88 Mechanic Street",
+        "city": "Dustown",
+        "country": "Fictionland",
+        "lat": 40.695,
+        "lng": -73.930
+      },
+      "contact": {
+        "phone": "+10000000020"
+      },
+      "meta": {
+        "rating": 4.2,
+        "price_range": "$$",
+        "tags": [
+          "auto",
+          "repair",
+          "garage"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sat": "08:00 - 18:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/garage1/400/300"
+      ]
+    },
+    {
+      "id": "plc_021",
+      "type": "place",
+      "name": "Nova International Airport",
+      "category": "transport",
+      "subcategory": "airport",
+      "description": "Major international airport serving global and domestic flights.",
+      "location": {
+        "address": "1 Aviation Way",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.780,
+        "lng": -73.920
+      },
+      "contact": {
+        "phone": "+10000000021"
+      },
+      "meta": {
+        "rating": 4.4,
+        "price_range": "$$$",
+        "tags": [
+          "airport",
+          "travel",
+          "international"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/airport1/400/300"
+      ]
+    },
+    {
+      "id": "plc_022",
+      "type": "place",
+      "name": "Greenford Police Station",
+      "category": "public_service",
+      "subcategory": "police",
+      "description": "Local police station ensuring public safety and law enforcement.",
+      "location": {
+        "address": "10 Justice Ave",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.738,
+        "lng": -73.955
+      },
+      "contact": {
+        "phone": "+10000000022"
+      },
+      "meta": {
+        "rating": 4.1,
+        "price_range": "$",
+        "tags": [
+          "police",
+          "safety",
+          "emergency"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/police1/400/300"
+      ]
+    },
+    {
+      "id": "plc_023",
+      "type": "place",
+      "name": "Central Fire Department",
+      "category": "public_service",
+      "subcategory": "fire_station",
+      "description": "Emergency fire response and rescue services.",
+      "location": {
+        "address": "77 Flame Street",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.742,
+        "lng": -73.948
+      },
+      "contact": {
+        "phone": "+10000000023"
+      },
+      "meta": {
+        "rating": 4.5,
+        "price_range": "$",
+        "tags": [
+          "fire",
+          "emergency",
+          "rescue"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/fire1/400/300"
+      ]
+    },
+    {
+      "id": "plc_024",
+      "type": "place",
+      "name": "Nova University",
+      "category": "education",
+      "subcategory": "university",
+      "description": "Top-ranked university offering diverse programs.",
+      "location": {
+        "address": "500 Knowledge Rd",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.765,
+        "lng": -73.940
+      },
+      "contact": {
+        "phone": "+10000000024"
+      },
+      "meta": {
+        "rating": 4.7,
+        "price_range": "$$$",
+        "tags": [
+          "university",
+          "education",
+          "campus"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_fri": "08:00 - 20:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/university1/400/300"
+      ]
+    },
+    {
+      "id": "plc_025",
+      "type": "place",
+      "name": "Green Hub Co-Working Space",
+      "category": "workspace",
+      "subcategory": "coworking",
+      "description": "Flexible co-working space for freelancers and startups.",
+      "location": {
+        "address": "22 Startup Lane",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.760,
+        "lng": -73.950
+      },
+      "contact": {
+        "phone": "+10000000025"
+      },
+      "meta": {
+        "rating": 4.6,
+        "price_range": "$$",
+        "tags": [
+          "coworking",
+          "startup",
+          "wifi"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "08:00 - 22:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/cowork1/400/300"
+      ]
+    },
+    {
+      "id": "plc_026",
+      "type": "place",
+      "name": "Emerald City Park",
+      "category": "outdoor",
+      "subcategory": "park",
+      "description": "Large urban park with walking trails and picnic areas.",
+      "location": {
+        "address": "1 Greenway Blvd",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.770,
+        "lng": -73.935
+      },
+      "contact": {},
+      "meta": {
+        "rating": 4.8,
+        "price_range": "$",
+        "tags": [
+          "park",
+          "nature",
+          "family"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "06:00 - 21:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/park1/400/300"
+      ]
+    },
+    {
+      "id": "plc_027",
+      "type": "place",
+      "name": "Skyline Rooftop Restaurant",
+      "category": "restaurant",
+      "subcategory": "fine_dining",
+      "description": "Elegant rooftop dining with panoramic city views.",
+      "location": {
+        "address": "99 Tower Heights",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.755,
+        "lng": -73.942
+      },
+      "contact": {
+        "phone": "+10000000027"
+      },
+      "meta": {
+        "rating": 4.9,
+        "price_range": "$$$$",
+        "tags": [
+          "fine dining",
+          "rooftop",
+          "luxury"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "17:00 - 23:30"
+      },
+      "images": [
+        "https://picsum.photos/seed/restaurant2/400/300"
+      ]
+    },
+    {
+      "id": "plc_028",
+      "type": "place",
+      "name": "BudgetStay Inn",
+      "category": "hotel",
+      "subcategory": "budget",
+      "description": "Affordable hotel with essential amenities.",
+      "location": {
+        "address": "8 Economy Rd",
+        "city": "Dustown",
+        "country": "Fictionland",
+        "lat": 40.690,
+        "lng": -73.920
+      },
+      "contact": {
+        "phone": "+10000000028"
+      },
+      "meta": {
+        "rating": 3.9,
+        "price_range": "$",
+        "tags": [
+          "budget",
+          "hotel",
+          "stay"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "check_in": "14:00",
+        "check_out": "10:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/hotel3/400/300"
+      ]
+    },
+    {
+      "id": "plc_029",
+      "type": "place",
+      "name": "City Transit Bus Terminal",
+      "category": "transport",
+      "subcategory": "bus_station",
+      "description": "Main hub for intercity and local bus routes.",
+      "location": {
+        "address": "50 Transit Way",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.748,
+        "lng": -73.935
+      },
+      "contact": {
+        "phone": "+10000000029"
+      },
+      "meta": {
+        "rating": 4.0,
+        "price_range": "$",
+        "tags": [
+          "bus",
+          "transport",
+          "travel"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "24/7"
+      },
+      "images": [
+        "https://picsum.photos/seed/bus1/400/300"
+      ]
+    },
+    {
+      "id": "plc_030",
+      "type": "place",
+      "name": "Harmony Music Hall",
+      "category": "entertainment",
+      "subcategory": "concert_hall",
+      "description": "Venue for live music concerts and performances.",
+      "location": {
+        "address": "12 Melody Street",
+        "city": "Seaside",
+        "country": "Fictionland",
+        "lat": 40.775,
+        "lng": -73.925
+      },
+      "contact": {
+        "phone": "+10000000030"
+      },
+      "meta": {
+        "rating": 4.6,
+        "price_range": "$$$",
+        "tags": [
+          "music",
+          "concert",
+          "events"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "varies": "Event-based"
+      },
+      "images": [
+        "https://picsum.photos/seed/music1/400/300"
+      ]
+    },
+    {
+      "id": "plc_031",
+      "type": "place",
+      "name": "FreshMart Supermarket",
+      "category": "shopping",
+      "subcategory": "supermarket",
+      "description": "Full-service supermarket with fresh produce and groceries.",
+      "location": {
+        "address": "88 Market Street",
+        "city": "Greenford",
+        "country": "Fictionland",
+        "lat": 40.740,
+        "lng": -73.950
+      },
+      "contact": {
+        "phone": "+10000000031"
+      },
+      "meta": {
+        "rating": 4.3,
+        "price_range": "$$",
+        "tags": [
+          "groceries",
+          "supermarket",
+          "food"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "08:00 - 22:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/store1/400/300"
+      ]
+    },
+    {
+      "id": "plc_032",
+      "type": "place",
+      "name": "Wellness Spa Retreat",
+      "category": "wellness",
+      "subcategory": "spa",
+      "description": "Relaxing spa offering massages and wellness treatments.",
+      "location": {
+        "address": "14 Serenity Blvd",
+        "city": "Seaside",
+        "country": "Fictionland",
+        "lat": 40.780,
+        "lng": -73.910
+      },
+      "contact": {
+        "phone": "+10000000032"
+      },
+      "meta": {
+        "rating": 4.7,
+        "price_range": "$$$",
+        "tags": [
+          "spa",
+          "relaxation",
+          "wellness"
+        ],
+        "is_featured": true,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sun": "09:00 - 21:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/spa1/400/300"
+      ]
+    },
+    {
+      "id": "plc_033",
+      "type": "place",
+      "name": "Nova Tech Library",
+      "category": "education",
+      "subcategory": "library",
+      "description": "Public library with digital and physical resources.",
+      "location": {
+        "address": "5 Knowledge Hub",
+        "city": "Nova City",
+        "country": "Fictionland",
+        "lat": 40.755,
+        "lng": -73.930
+      },
+      "contact": {
+        "phone": "+10000000033"
+      },
+      "meta": {
+        "rating": 4.5,
+        "price_range": "$",
+        "tags": [
+          "library",
+          "books",
+          "study"
+        ],
+        "is_featured": false,
+        "is_verified": true
+      },
+      "hours": {
+        "mon_sat": "09:00 - 18:00"
+      },
+      "images": [
+        "https://picsum.photos/seed/library1/400/300"
+      ]
+    }
+  ]
+}
