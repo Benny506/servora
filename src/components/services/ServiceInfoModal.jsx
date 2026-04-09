@@ -109,6 +109,8 @@ export default function ServiceInfoModal({ show, onHide, professionalProfile, se
       description: service?.description ?? '',
       starting_price: service?.starting_price ?? '',
       ending_price: service?.ending_price ?? '',
+      category: service?.category ?? '',
+      subcategory: service?.subcategory ?? '',
       is_active: service?.is_active !== false,
     }
   }, [service?.description, service?.ending_price, service?.is_active, service?.starting_price, service?.title])
@@ -138,6 +140,8 @@ export default function ServiceInfoModal({ show, onHide, professionalProfile, se
           .typeError('Ending price must be a number')
           .min(0, 'Ending price must be positive')
           .nullable(),
+        category: Yup.string().required('Category is required'),
+        subcategory: Yup.string().nullable(),
       }),
     [],
   )
@@ -241,6 +245,8 @@ export default function ServiceInfoModal({ show, onHide, professionalProfile, se
         description: values.description,
         starting_price: values.starting_price === '' ? null : Number(values.starting_price),
         ending_price: values.ending_price === '' ? null : Number(values.ending_price),
+        category: values.category,
+        subcategory: values.subcategory,
         is_active: values.is_active,
         images,
       }
@@ -379,6 +385,55 @@ export default function ServiceInfoModal({ show, onHide, professionalProfile, se
                       e.target.value = ''
                     }}
                   />
+                </div>
+
+                <div className="col-12 col-md-6">
+                  <label htmlFor="category" className="form-label sv-form-label">
+                    Category
+                  </label>
+                  <select
+                    id="category"
+                    name="category"
+                    className={`form-select sv-form-control${
+                      formik.touched.category && formik.errors.category ? ' is-invalid' : ''
+                    }`}
+                    value={formik.values.category}
+                    onChange={formik.handleChange}
+                    onBlur={formik.handleBlur}
+                  >
+                    <option value="" disabled>Select category</option>
+                    <option value="tech">Tech & AI</option>
+                    <option value="health">Health & Wellness</option>
+                    <option value="home">Home & Maintenance</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="creative">Creative & Design</option>
+                    <option value="professional">Professional Services</option>
+                    <option value="education">Education & Coaching</option>
+                  </select>
+                  {formik.touched.category && formik.errors.category ? (
+                    <div className="invalid-feedback">{formik.errors.category}</div>
+                  ) : null}
+                </div>
+
+                <div className="col-12 col-md-6">
+                  <label htmlFor="subcategory" className="form-label sv-form-label">
+                    Subcategory
+                  </label>
+                  <input
+                    id="subcategory"
+                    name="subcategory"
+                    type="text"
+                    placeholder="e.g. Web Development"
+                    className={`form-control sv-form-control${
+                      formik.touched.subcategory && formik.errors.subcategory ? ' is-invalid' : ''
+                    }`}
+                    value={formik.values.subcategory}
+                    onChange={formik.handleChange}
+                    onBlur={formik.handleBlur}
+                  />
+                  {formik.touched.subcategory && formik.errors.subcategory ? (
+                    <div className="invalid-feedback">{formik.errors.subcategory}</div>
+                  ) : null}
                 </div>
 
                 <div className="col-12 col-md-6">

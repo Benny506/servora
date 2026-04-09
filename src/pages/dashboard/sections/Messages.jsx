@@ -8,6 +8,7 @@ import {
   setActiveConversationId, 
   setMessages, 
   addMessage,
+  reconcileMessage,
   setLoading 
 } from '../../../store/messagingSlice.js'
 import { addAlert } from '../../../store/uiSlice.js'
@@ -114,10 +115,8 @@ export default function Messages() {
         filter: `conversation_id=eq.${activeConversationId}`
       }, (payload) => {
         const newMsg = payload.new
-        // Only add if not already in state (deduplication for optimistic UI)
-        if (!messagesRef.current.find(m => m.id === newMsg.id)) {
-          dispatch(addMessage(newMsg))
-        }
+        // Pulse Reconciliation: Intelligently merge or add
+        dispatch(reconcileMessage(newMsg))
       })
       .subscribe()
 
@@ -200,7 +199,7 @@ export default function Messages() {
       }
     }
     return {
-      name: `User ${uid.slice(0, 8)}...`,
+      name: uid ? `User ${uid.slice(0, 8)}...` : 'Identifying...',
       img: null,
       isPro: false
     }

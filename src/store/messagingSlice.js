@@ -24,6 +24,28 @@ const messagingSlice = createSlice({
     addMessage: (state, action) => {
       state.messages.push(action.payload)
     },
+    reconcileMessage: (state, action) => {
+      const newMsg = action.payload
+      // 1. Strict ID Check
+      const existingIdx = state.messages.findIndex(m => m.id === newMsg.id)
+      if (existingIdx !== -1) return
+
+      // 2. Optimistic Link Check (for the sender)
+      // Look for an optimistic bubble with the same content sent recently
+      const optIdx = state.messages.findIndex(m => 
+        m.isOptimistic && 
+        m.sender_id === newMsg.sender_id && 
+        m.content === newMsg.content
+      )
+
+      if (optIdx !== -1) {
+        // Replace optimistic with real server message
+        state.messages[optIdx] = newMsg
+      } else {
+        // Normal add
+        state.messages.push(newMsg)
+      }
+    },
     setLoading: (state, action) => {
       state.loading = action.payload
     },
@@ -42,6 +64,7 @@ export const {
   setActiveConversationId, 
   setMessages, 
   addMessage, 
+  reconcileMessage,
   setLoading, 
   setError,
   clearActiveChat
