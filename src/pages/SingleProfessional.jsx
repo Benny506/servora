@@ -2,10 +2,13 @@ import { useEffect, useMemo, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useNavigate, useParams } from 'react-router-dom'
 import { supabase } from '../lib/supabaseClient.js'
+import { seedPros } from './core/professionals/prosData.js'
+import { seedServices } from './core/services/servicesData.js'
 import PortfolioCard from '../components/portfolio/PortfolioCard.jsx'
 import ServiceCard from '../components/services/ServiceCard.jsx'
 import Footer from '../components/Footer.jsx'
 import logoIcon from '../assets/servora-logo-icon.png'
+import { useMessaging } from '../hooks/useMessaging.js'
 
 const BUCKET_PROFILES = 'user_profiles'
 const BUCKET_PORTFOLIOS = 'sv_portfolios'
@@ -16,13 +19,17 @@ const formatLocation = (p) => [p?.city, p?.state, p?.country].filter(Boolean).jo
 export default function SingleProfessional() {
   const { id } = useParams()
   const navigate = useNavigate()
+  const { initiateConversation } = useMessaging()
   const discoveryPros = useSelector((s) => s.discovery.professionals)
   const discoveryServices = useSelector((s) => s.discovery.services)
   const isLoggedIn = useSelector((s) => Boolean(s.auth.user))
   const currentUserId = useSelector((s) => s.auth.user?.id ?? '')
 
-  const [professional, setProfessional] = useState(() => discoveryPros.find((p) => p.id === id) || null)
-  const [services, setServices] = useState(() => discoveryServices.filter((s) => s.professional_id === id))
+  const allPros = useMemo(() => [...discoveryPros, ...seedPros], [discoveryPros])
+  const allServices = useMemo(() => [...discoveryServices, ...seedServices], [discoveryServices])
+
+  const [professional, setProfessional] = useState(() => allPros.find((p) => p.id === id) || null)
+  const [services, setServices] = useState(() => allServices.filter((s) => s.professional_id === id))
   const [portfolios, setPortfolios] = useState([])
   const [loading, setLoading] = useState(!professional)
 
@@ -36,13 +43,20 @@ export default function SingleProfessional() {
       if (!supabase) return
       try {
         if (!professional) {
-          setLoading(true)
-          const { data, error } = await supabase.from('sv_professional_profiles').select('*').eq('id', id).maybeSingle()
-          if (error) throw error
-          if (cancelled) return
-          setProfessional(data ?? null)
+          // Check if it's a seed pro first
+          const sp = seedPros.find(p => p.id === id)
+          if (sp) {
+            setProfessional(sp)
+            setServices(seedServices.filter(s => s.professional_id === id))
+          } else {
+            setLoading(true)
+            const { data, error } = await supabase.from('sv_professional_profiles').select('*').eq('id', id).maybeSingle()
+            if (error) throw error
+            if (cancelled) return
+            setProfessional(data ?? null)
+          }
         }
-        if (services.length === 0) {
+        if (services.length === 0 && !professional?.is_seed) {
           const { data, error } = await supabase
             .from('sv_services')
             .select('*')
@@ -52,14 +66,17 @@ export default function SingleProfessional() {
           if (cancelled) return
           setServices(data ?? [])
         }
-        const { data: pfData, error: pfErr } = await supabase
-          .from('sv_portfolios')
-          .select('*')
-          .eq('professional_id', id)
-          .order('created_at', { ascending: false })
-        if (pfErr) throw pfErr
-        if (cancelled) return
-        setPortfolios(pfData ?? [])
+
+        if (!professional?.is_seed) {
+          const { data: pfData, error: pfErr } = await supabase
+            .from('sv_portfolios')
+            .select('*')
+            .eq('professional_id', id)
+            .order('created_at', { ascending: false })
+          if (pfErr) throw pfErr
+          if (cancelled) return
+          setPortfolios(pfData ?? [])
+        }
       } finally {
         if (!cancelled) setLoading(false)
       }
@@ -74,10 +91,15 @@ export default function SingleProfessional() {
     let cancelled = false
     const path = professional?.profile_img
     const load = async () => {
-      if (!path || !supabase) {
+      if (!path) {
         setProfileImgUrl('')
         return
       }
+      if (path.startsWith('http')) {
+        setProfileImgUrl(path)
+        return
+      }
+      if (!supabase) return
       try {
         const { data } = await supabase.storage.from(BUCKET_PROFILES).createSignedUrl(path, 60 * 10)
         if (!cancelled) setProfileImgUrl(data?.signedUrl ?? '')
@@ -95,7 +117,7 @@ export default function SingleProfessional() {
   useEffect(() => {
     let cancelled = false
     const covers = portfolios.map((p) => p?.images?.[0]).filter(Boolean).slice(0, 200)
-    if (!supabase || covers.length === 0) {
+    if (covers.length === 0) {
       setPortfolioCoverUrls({})
       return
     }
@@ -103,6 +125,10 @@ export default function SingleProfessional() {
       const next = {}
       await Promise.all(
         covers.map(async (p) => {
+          if (p.startsWith('http')) {
+            next[p] = p
+            return
+          }
           try {
             const { data } = await supabase.storage.from(BUCKET_PORTFOLIOS).createSignedUrl(p, 60 * 10)
             next[p] = data?.signedUrl ?? ''
@@ -129,14 +155,20 @@ export default function SingleProfessional() {
           .filter(Boolean),
       ),
     ).slice(0, 200)
-    if (!supabase || paths.length === 0) {
+    if (paths.length === 0) {
       setServiceMediaUrls({})
       return
     }
     const run = async () => {
       const next = {}
+      const hasSupabase = Boolean(supabase)
       await Promise.all(
         paths.map(async (p) => {
+          if (p.startsWith('http')) {
+            next[p] = p
+            return
+          }
+          if (!hasSupabase) return
           try {
             const { data } = await supabase.storage.from(BUCKET_SERVICES).createSignedUrl(p, 60 * 10)
             next[p] = data?.signedUrl ?? ''
@@ -158,6 +190,16 @@ export default function SingleProfessional() {
   const location = useMemo(() => (pro ? formatLocation(pro) : ''), [pro])
   const isVerified = pro?.is_verified === true
   const isSelf = Boolean(currentUserId && pro?.user_id === currentUserId)
+  const isSeed = pro?.is_seed === true
+  const isAdminAuthenticated = useSelector((state) => state.admin.isAdminAuthenticated)
+
+  const handleDashboardClick = () => {
+    if (isAdminAuthenticated) {
+      navigate('/admin/dashboard')
+    } else {
+      navigate('/dashboard')
+    }
+  }
 
   return (
     <div className="sv-core">
@@ -173,8 +215,8 @@ export default function SingleProfessional() {
               <img src={logoIcon} width="34" height="34" alt="Servora" className="sv-landing-nav__logo" />
               <span className="sv-landing-nav__name ms-2">Servora</span>
             </button>
-            {isLoggedIn ? (
-              <button type="button" className="btn btn-primary" onClick={() => navigate('/dashboard')}>
+            {isLoggedIn || isAdminAuthenticated ? (
+              <button type="button" className="btn btn-primary" onClick={handleDashboardClick}>
                 Dashboard
               </button>
             ) : (
@@ -207,12 +249,25 @@ export default function SingleProfessional() {
               <div className="mt-1">
                 {isVerified ? <span className="sv-core-card__badge">Verified</span> : null}
                 {location ? <span className="ms-2 text-secondary fw-semibold">{location}</span> : null}
+                {pro?.phone_number ? <> <br /><span className="ms-2 text-secondary fw-semibold">{pro?.phone_number}</span></> : null}
               </div>
               <div className="d-flex gap-2 flex-wrap mt-3">
                 {isSelf ? <div className="sv-pill sv-pill--on">This is you</div> : (
-                  <button type="button" className="btn btn-primary" onClick={() => navigate('/dashboard/messages')}>
-                    Message
-                  </button>
+                  <>
+                    <button type="button" className="btn btn-primary px-4" onClick={() => initiateConversation(pro?.user_id)}>
+                      Message
+                    </button>
+                    {pro?.phone_number && (
+                      <a
+                        href={`tel:${pro.phone_number}`}
+                        className="btn btn-emerald-glass px-4 d-flex align-items-center gap-2"
+                        style={{ border: '1px solid #3fbf5a', color: '#3fbf5a', fontWeight: 'bold' }}
+                      >
+                        <i className="bi bi-telephone-fill"></i>
+                        Call Now
+                      </a>
+                    )}
+                  </>
                 )}
                 <button
                   type="button"
@@ -222,7 +277,7 @@ export default function SingleProfessional() {
                     navigator?.clipboard?.writeText?.(url)
                   }}
                 >
-                  Copy profile link
+                  Copy Link
                 </button>
               </div>
             </div>
@@ -259,7 +314,7 @@ export default function SingleProfessional() {
                 const thumbUrls = images.slice(1, 5).map((p) => serviceMediaUrls[p]).filter(Boolean)
                 return (
                   <div key={s.id} className="col-12 col-md-6">
-                    <ServiceCard service={s} coverUrl={coverUrl} thumbUrls={thumbUrls} onClick={() => {}} />
+                    <ServiceCard service={s} coverUrl={coverUrl} thumbUrls={thumbUrls} onClick={() => { }} />
                   </div>
                 )
               })}
@@ -287,7 +342,7 @@ export default function SingleProfessional() {
                       coverUrl={coverUrl}
                       mediaCount={count}
                       showOwnerIndicator={isSelf}
-                      onClick={() => {}}
+                      onClick={() => { }}
                     />
                   </div>
                 )

@@ -9,11 +9,14 @@ import FinalCtaSection from '../../components/landing/sections/FinalCtaSection.j
 import HeroSection from '../../components/landing/sections/HeroSection.jsx'
 import HowItWorksSection from '../../components/landing/sections/HowItWorksSection.jsx'
 import PlacesSection from '../../components/landing/sections/PlacesSection.jsx'
+import InstallToHomeScreenButton from '../../components/pwa/InstallToHomeScreenButton.jsx'
+import QuickDiscoveryWidget from '../../components/discovery/QuickDiscoveryWidget.jsx'
 import './landing.css'
 
 export default function LandingPage() {
   const navigate = useNavigate()
   const isLoggedIn = useSelector((state) => Boolean(state.auth.user))
+  const isAdminAuthenticated = useSelector((state) => state.admin.isAdminAuthenticated)
 
   const scrollToSection = (id) => {
     if (!id) return
@@ -56,6 +59,7 @@ export default function LandingPage() {
       <LandingNav
         onSection={scrollToSection}
         isLoggedIn={isLoggedIn}
+        isAdmin={isAdminAuthenticated}
         onPrimaryCta={() => navigate('/core?tab=services')}
         onSecondaryCta={() => navigate('/login')}
       />
@@ -65,6 +69,9 @@ export default function LandingPage() {
           onPrimaryCta={() => navigate('/core?tab=services')}
           onSecondaryCta={() => navigate('/signup')}
         />
+        <div className="container mt-2 d-flex justify-content-center">
+          <InstallToHomeScreenButton className="btn btn-outline-primary sv-landing-nav__btn" label="Install app" />
+        </div>
         <HowItWorksSection />
         <AudienceSplitSection
           onClientCta={() => navigate('/core?tab=services')}
@@ -79,6 +86,7 @@ export default function LandingPage() {
       </main>
 
       <Footer />
+      <QuickDiscoveryWidget />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import { Offcanvas } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import logoIcon from '../../../assets/servora-logo-icon.png'
+import InstallToHomeScreenButton from '../../../components/pwa/InstallToHomeScreenButton.jsx'
 
 export default function DashboardSidebar({
   items,
@@ -46,6 +47,7 @@ export default function DashboardSidebar({
           </div>
 
           <div className="sv-dashboard__nav-footer">
+            <InstallToHomeScreenButton className="btn btn-outline-primary w-100" label="Install" />
             <button type="button" className="sv-dashboard__logout" onClick={onLogout}>
               Logout
             </button>
@@ -85,6 +87,7 @@ export default function DashboardSidebar({
         </div>
 
         <div className="sv-dashboard__nav-footer">
+          <InstallToHomeScreenButton className="btn btn-outline-primary w-100" label="Install" />
           <button type="button" className="sv-dashboard__logout" onClick={onLogout}>
             Logout
           </button>

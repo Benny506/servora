@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { supabase } from '../../lib/supabaseClient.js'
 import FullscreenMediaViewer from '../FullscreenMediaViewer.jsx'
+import { useMessaging } from '../../hooks/useMessaging.js'
 
 const BUCKET = 'sv_services'
 const PROFILES_BUCKET = 'user_profiles'
@@ -21,6 +22,7 @@ const formatNgn = (value) => {
 
 export default function ServicePreviewModal({ show, onHide, service, professional }) {
   const navigate = useNavigate()
+  const { initiateConversation } = useMessaging()
   const isLoggedIn = useSelector((s) => Boolean(s.auth.user))
   const currentUserId = useSelector((s) => s.auth.user?.id ?? '')
   const [imgUrls, setImgUrls] = useState([])
@@ -153,20 +155,14 @@ export default function ServicePreviewModal({ show, onHide, service, professiona
               </div>
             ) : null}
 
-            <div className="d-flex gap-2 flex-wrap my-4">
+            <div className="d-flex gap-2 flex-wrap mt-4">
               {isSelf ? (
                 <div className="sv-pill sv-pill--on">This is you</div>
-              ) : (
+              ) : professional?.is_seed ? null : (
                 <button
                   type="button"
                   className="btn btn-primary"
-                  onClick={() => {
-                    if (isLoggedIn) {
-                      navigate('/dashboard/messages')
-                    } else {
-                      navigate('/login', { state: { from: '/core' } })
-                    }
-                  }}
+                  onClick={() => initiateConversation(professional?.user_id)}
                 >
                   Message
                 </button>

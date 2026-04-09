@@ -9,10 +9,11 @@
       "description": "A cozy vegan restaurant offering organic plant-based meals and fresh juices.",
       "location": {
         "address": "12 Willow Street",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.7121,
-        "lng": -73.9911
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.983594635502877,
+        "lng": 8.342908960855334,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000001",
@@ -35,7 +36,7 @@
         "mon_sun": "09:00 - 22:00"
       },
       "images": [
-        "https://picsum.photos/seed/verdant/400/300"
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -47,10 +48,11 @@
       "description": "A premium hotel offering skyline views, spa services, and fine dining.",
       "location": {
         "address": "88 Skyline Avenue",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.715,
-        "lng": -73.982
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.980417776845401,
+        "lng": 8.322639945765951,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000002",
@@ -74,7 +76,7 @@
         "check_out": "11:00"
       },
       "images": [
-        "https://picsum.photos/seed/hotel1/400/300"
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -86,10 +88,11 @@
       "description": "State-of-the-art cinema with immersive IMAX experience and luxury seating.",
       "location": {
         "address": "5 Orion Plaza",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.718,
-        "lng": -73.980
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.974894727886147,
+        "lng": 8.323117541353906,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000003",
@@ -111,7 +114,7 @@
         "mon_sun": "10:00 - 01:00"
       },
       "images": [
-        "https://picsum.photos/seed/cinema1/400/300"
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -123,10 +126,11 @@
       "description": "24/7 hospital providing emergency and specialized medical services.",
       "location": {
         "address": "200 Care Blvd",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.720,
-        "lng": -73.970
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.985164218881514,
+        "lng": 8.357287325480643,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000004",
@@ -147,7 +151,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/hospital1/400/300"
+        "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -159,10 +163,11 @@
       "description": "Affordable roadside motel ideal for quick overnight stays.",
       "location": {
         "address": "45 Route 9",
-        "city": "Dustown",
-        "country": "Fictionland",
-        "lat": 40.690,
-        "lng": -73.950
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.969637314777171,
+        "lng": 8.351231789771047,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000005"
@@ -182,7 +187,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/motel1/400/300"
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -194,10 +199,11 @@
       "description": "Modern fitness center with personal training and group classes.",
       "location": {
         "address": "77 Titan Street",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.725,
-        "lng": -73.978
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.9598465536411975,
+        "lng": 8.341304977681348,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000006"
@@ -218,22 +224,23 @@
         "sat_sun": "08:00 - 20:00"
       },
       "images": [
-        "https://picsum.photos/seed/gym1/400/300"
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
       "id": "plc_007",
       "type": "place",
-      "name": "Blue Harbor Café",
+      "name": "Blue Harbor Caf\u00e9",
       "category": "restaurant",
       "subcategory": "cafe",
-      "description": "Relaxed café serving coffee, pastries, and light meals.",
+      "description": "Relaxed caf\u00e9 serving coffee, pastries, and light meals.",
       "location": {
         "address": "9 Harbor Lane",
-        "city": "Seaside",
-        "country": "Fictionland",
-        "lat": 40.730,
-        "lng": -73.940
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.975214147064055,
+        "lng": 8.336004634021144,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000007"
@@ -253,7 +260,7 @@
         "mon_sun": "07:00 - 18:00"
       },
       "images": [
-        "https://picsum.photos/seed/cafe1/400/300"
+        "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -265,10 +272,11 @@
       "description": "Walk-in clinic for general consultations and minor treatments.",
       "location": {
         "address": "18 Health Street",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.726,
-        "lng": -73.975
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.964337194697437,
+        "lng": 8.342197484791697,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000008"
@@ -288,7 +296,7 @@
         "mon_sat": "08:00 - 20:00"
       },
       "images": [
-        "https://picsum.photos/seed/clinic1/400/300"
+        "https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -300,10 +308,11 @@
       "description": "Well-established high school with strong academic and sports programs.",
       "location": {
         "address": "101 Oak Street",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.735,
-        "lng": -73.960
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.963830796494837,
+        "lng": 8.34287090710963,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000009"
@@ -323,7 +332,7 @@
         "mon_fri": "08:00 - 15:00"
       },
       "images": [
-        "https://picsum.photos/seed/school1/400/300"
+        "https://images.unsplash.com/photo-1523050335102-c6744ef81137?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -335,10 +344,11 @@
       "description": "Community-focused elementary school with modern facilities.",
       "location": {
         "address": "55 Maple Ave",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.733,
-        "lng": -73.958
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.9932287640020565,
+        "lng": 8.354744296894545,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000010"
@@ -358,7 +368,7 @@
         "mon_fri": "08:30 - 14:30"
       },
       "images": [
-        "https://picsum.photos/seed/school2/400/300"
+        "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -370,10 +380,11 @@
       "description": "Elite private institution known for academic excellence.",
       "location": {
         "address": "200 Prestige Blvd",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.742,
-        "lng": -73.970
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.986251957588775,
+        "lng": 8.33445294879642,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000011"
@@ -393,7 +404,7 @@
         "mon_fri": "08:00 - 16:00"
       },
       "images": [
-        "https://picsum.photos/seed/school3/400/300"
+        "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -405,10 +416,11 @@
       "description": "Specialized hospital for children's healthcare.",
       "location": {
         "address": "12 Healing Way",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.745,
-        "lng": -73.965
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.9731055034862575,
+        "lng": 8.323048242817618,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000012"
@@ -428,7 +440,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/hospital2/400/300"
+        "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -440,10 +452,11 @@
       "description": "Advanced diagnostic lab offering scans and lab testing.",
       "location": {
         "address": "88 MedTech Ave",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.748,
-        "lng": -73.960
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.965073754736823,
+        "lng": 8.346373102684467,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000013"
@@ -463,7 +476,7 @@
         "mon_sat": "07:00 - 19:00"
       },
       "images": [
-        "https://picsum.photos/seed/hospital3/400/300"
+        "https://images.unsplash.com/photo-1511174511562-5f7f18585481?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -475,10 +488,11 @@
       "description": "Business-friendly hotel with conference facilities.",
       "location": {
         "address": "300 Central Ave",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.750,
-        "lng": -73.955
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.958636636924532,
+        "lng": 8.335550096038952,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000014"
@@ -499,7 +513,7 @@
         "check_out": "11:00"
       },
       "images": [
-        "https://picsum.photos/seed/hotel2/400/300"
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -511,10 +525,11 @@
       "description": "Fast and affordable burgers and fries.",
       "location": {
         "address": "22 Speed Lane",
-        "city": "Dustown",
-        "country": "Fictionland",
-        "lat": 40.700,
-        "lng": -73.940
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.969773128730018,
+        "lng": 8.333999846248707,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000015"
@@ -534,7 +549,7 @@
         "mon_sun": "10:00 - 23:00"
       },
       "images": [
-        "https://picsum.photos/seed/food1/400/300"
+        "https://images.unsplash.com/photo-1571091718767-18b5c1457add?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -546,10 +561,11 @@
       "description": "Affordable cinema with multiple screens.",
       "location": {
         "address": "77 Movie Street",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.710,
-        "lng": -73.945
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.984428248299143,
+        "lng": 8.359345711252717,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000016"
@@ -569,7 +585,7 @@
         "mon_sun": "11:00 - 00:00"
       },
       "images": [
-        "https://picsum.photos/seed/cinema2/400/300"
+        "https://images.unsplash.com/photo-1440404653322-9df1a7a02117?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -581,10 +597,11 @@
       "description": "Large shopping complex with retail stores and food courts.",
       "location": {
         "address": "500 River Road",
-        "city": "Seaside",
-        "country": "Fictionland",
-        "lat": 40.760,
-        "lng": -73.930
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.967410774917952,
+        "lng": 8.324533939539394,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000017"
@@ -604,7 +621,7 @@
         "mon_sun": "09:00 - 22:00"
       },
       "images": [
-        "https://picsum.photos/seed/mall1/400/300"
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -616,10 +633,11 @@
       "description": "Late-night bar with live music and cocktails.",
       "location": {
         "address": "13 Midnight Ave",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.755,
-        "lng": -73.940
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.992435488828142,
+        "lng": 8.351249695628262,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000018"
@@ -639,7 +657,7 @@
         "mon_sun": "18:00 - 03:00"
       },
       "images": [
-        "https://picsum.photos/seed/bar1/400/300"
+        "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -651,10 +669,11 @@
       "description": "Reliable banking services with modern digital solutions.",
       "location": {
         "address": "1 Finance Plaza",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.752,
-        "lng": -73.950
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.955997571637894,
+        "lng": 8.350258447916517,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000019"
@@ -674,7 +693,7 @@
         "mon_fri": "09:00 - 17:00"
       },
       "images": [
-        "https://picsum.photos/seed/bank1/400/300"
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -686,10 +705,11 @@
       "description": "Full-service auto repair and maintenance center.",
       "location": {
         "address": "88 Mechanic Street",
-        "city": "Dustown",
-        "country": "Fictionland",
-        "lat": 40.695,
-        "lng": -73.930
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.9626111671385065,
+        "lng": 8.341986115823405,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000020"
@@ -709,7 +729,7 @@
         "mon_sat": "08:00 - 18:00"
       },
       "images": [
-        "https://picsum.photos/seed/garage1/400/300"
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -721,10 +741,11 @@
       "description": "Major international airport serving global and domestic flights.",
       "location": {
         "address": "1 Aviation Way",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.780,
-        "lng": -73.920
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.991261377250378,
+        "lng": 8.346035356780291,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000021"
@@ -744,7 +765,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/airport1/400/300"
+        "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -756,10 +777,11 @@
       "description": "Local police station ensuring public safety and law enforcement.",
       "location": {
         "address": "10 Justice Ave",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.738,
-        "lng": -73.955
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.965456359050381,
+        "lng": 8.350969767995888,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000022"
@@ -779,7 +801,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/police1/400/300"
+        "https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -791,10 +813,11 @@
       "description": "Emergency fire response and rescue services.",
       "location": {
         "address": "77 Flame Street",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.742,
-        "lng": -73.948
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.961959231165773,
+        "lng": 8.342621033887449,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000023"
@@ -814,7 +837,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/fire1/400/300"
+        "https://images.unsplash.com/photo-1599739121074-13337625d15a?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -826,10 +849,11 @@
       "description": "Top-ranked university offering diverse programs.",
       "location": {
         "address": "500 Knowledge Rd",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.765,
-        "lng": -73.940
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.969493646717542,
+        "lng": 8.359249417536496,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000024"
@@ -861,10 +885,11 @@
       "description": "Flexible co-working space for freelancers and startups.",
       "location": {
         "address": "22 Startup Lane",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.760,
-        "lng": -73.950
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.9635572961540815,
+        "lng": 8.331160875698677,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000025"
@@ -896,10 +921,11 @@
       "description": "Large urban park with walking trails and picnic areas.",
       "location": {
         "address": "1 Greenway Blvd",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.770,
-        "lng": -73.935
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.988639537223442,
+        "lng": 8.351740832578718,
+        "state": "Cross River"
       },
       "contact": {},
       "meta": {
@@ -929,10 +955,11 @@
       "description": "Elegant rooftop dining with panoramic city views.",
       "location": {
         "address": "99 Tower Heights",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.755,
-        "lng": -73.942
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.995058017112859,
+        "lng": 8.340525611678263,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000027"
@@ -964,10 +991,11 @@
       "description": "Affordable hotel with essential amenities.",
       "location": {
         "address": "8 Economy Rd",
-        "city": "Dustown",
-        "country": "Fictionland",
-        "lat": 40.690,
-        "lng": -73.920
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.992255877124258,
+        "lng": 8.324702857213932,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000028"
@@ -988,7 +1016,7 @@
         "check_out": "10:00"
       },
       "images": [
-        "https://picsum.photos/seed/hotel3/400/300"
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -1000,10 +1028,11 @@
       "description": "Main hub for intercity and local bus routes.",
       "location": {
         "address": "50 Transit Way",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.748,
-        "lng": -73.935
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.976448001471361,
+        "lng": 8.334630763821918,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000029"
@@ -1023,7 +1052,7 @@
         "mon_sun": "24/7"
       },
       "images": [
-        "https://picsum.photos/seed/bus1/400/300"
+        "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -1035,10 +1064,11 @@
       "description": "Venue for live music concerts and performances.",
       "location": {
         "address": "12 Melody Street",
-        "city": "Seaside",
-        "country": "Fictionland",
-        "lat": 40.775,
-        "lng": -73.925
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.975506619424697,
+        "lng": 8.33633031506297,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000030"
@@ -1058,7 +1088,7 @@
         "varies": "Event-based"
       },
       "images": [
-        "https://picsum.photos/seed/music1/400/300"
+        "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -1070,10 +1100,11 @@
       "description": "Full-service supermarket with fresh produce and groceries.",
       "location": {
         "address": "88 Market Street",
-        "city": "Greenford",
-        "country": "Fictionland",
-        "lat": 40.740,
-        "lng": -73.950
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.987930488991147,
+        "lng": 8.328046440293267,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000031"
@@ -1093,7 +1124,7 @@
         "mon_sun": "08:00 - 22:00"
       },
       "images": [
-        "https://picsum.photos/seed/store1/400/300"
+        "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -1105,10 +1136,11 @@
       "description": "Relaxing spa offering massages and wellness treatments.",
       "location": {
         "address": "14 Serenity Blvd",
-        "city": "Seaside",
-        "country": "Fictionland",
-        "lat": 40.780,
-        "lng": -73.910
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.995480470391187,
+        "lng": 8.351780244378446,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000032"
@@ -1128,7 +1160,7 @@
         "mon_sun": "09:00 - 21:00"
       },
       "images": [
-        "https://picsum.photos/seed/spa1/400/300"
+        "https://images.unsplash.com/photo-1544161515-4af6b1d46afc?auto=format&fit=crop&w=800&q=80"
       ]
     },
     {
@@ -1140,10 +1172,11 @@
       "description": "Public library with digital and physical resources.",
       "location": {
         "address": "5 Knowledge Hub",
-        "city": "Nova City",
-        "country": "Fictionland",
-        "lat": 40.755,
-        "lng": -73.930
+        "city": "Calabar",
+        "country": "Nigeria",
+        "lat": 4.986618316731602,
+        "lng": 8.341629374950005,
+        "state": "Cross River"
       },
       "contact": {
         "phone": "+10000000033"
@@ -1163,8 +1196,2352 @@
         "mon_sat": "09:00 - 18:00"
       },
       "images": [
-        "https://picsum.photos/seed/library1/400/300"
+        "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80"
       ]
+    }
+  ],
+  "professionals": [
+    {
+      "id": "pro_001",
+      "user_id": null,
+      "title": "Alex Rivers",
+      "bio": "Expert in AI and machine learning automation.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.9,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.991546811178065,
+      "lng": 8.327483280163808,
+      "phone_number": "+234 703 627 3347"
+    },
+    {
+      "id": "pro_002",
+      "user_id": null,
+      "title": "Sarah Chen",
+      "bio": "Personal trainer helping you reach your peak performance.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.8,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.977596741490522,
+      "lng": 8.359167428859365,
+      "phone_number": "+234 810 673 1197"
+    },
+    {
+      "id": "pro_003",
+      "user_id": null,
+      "title": "Marcus Thorne",
+      "bio": "Professional cleaner dedicated to pristine environments.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1559839734-2b71f1e3c77c?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 5.0,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.97166279219185,
+      "lng": 8.340849396570098,
+      "phone_number": "+234 814 485 3769"
+    },
+    {
+      "id": "pro_004",
+      "user_id": null,
+      "title": "Elena Vance",
+      "bio": "Music teacher bringing out the artist in every student.",
+      "location_text": "Calabar, Cross River",
+      "city": "London",
+      "state": "Greater London",
+      "country": "UK",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1544766407-30790757f49c?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 5.0,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.967516763604445,
+      "lng": 8.352324287808107,
+      "phone_number": "+234 803 755 2369"
+    },
+    {
+      "id": "pro_005",
+      "user_id": null,
+      "title": "David Miller",
+      "bio": "Startup lawyer providing expert legal guidance.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 5.0,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.955991743954084,
+      "lng": 8.332836849332633,
+      "phone_number": "+234 803 888 2926"
+    },
+    {
+      "id": "pro_006",
+      "user_id": null,
+      "title": "Sophia Grant",
+      "bio": "Body shop specialist focus on detail and finish.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1625231334168-35067f8853ed?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.978875461306131,
+      "lng": 8.352126551943659,
+      "phone_number": "+234 816 438 7977"
+    },
+    {
+      "id": "pro_007",
+      "user_id": null,
+      "title": "Julian Black",
+      "bio": "Digital illustrator creating worlds through art.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.991000607419647,
+      "lng": 8.328696735402549,
+      "phone_number": "+234 810 349 3036"
+    },
+    {
+      "id": "pro_008",
+      "user_id": null,
+      "title": "Robert Reed",
+      "bio": "Full stack developer building scalable web applications.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.9790591093720655,
+      "lng": 8.358862932007572,
+      "phone_number": "+234 906 365 7779"
+    },
+    {
+      "id": "pro_009",
+      "user_id": null,
+      "title": "Maya Gupta",
+      "bio": "Personal trainer helping you reach your peak performance.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.957431240189907,
+      "lng": 8.35125242626517,
+      "phone_number": "+234 903 984 7927"
+    },
+    {
+      "id": "pro_010",
+      "user_id": null,
+      "title": "Chloe Summers",
+      "bio": "Professional cleaner dedicated to pristine environments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.976746290906739,
+      "lng": 8.35357150825008,
+      "phone_number": "+234 816 887 4307"
+    },
+    {
+      "id": "pro_011",
+      "user_id": null,
+      "title": "Jim Watts",
+      "bio": "Music teacher bringing out the artist in every student.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.8,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.991786883571498,
+      "lng": 8.326263101901642,
+      "phone_number": "+234 906 188 5738"
+    },
+    {
+      "id": "pro_012",
+      "user_id": null,
+      "title": "Isabella Rossi",
+      "bio": "Financial advisor for long-term wealth management.",
+      "location_text": "Calabar, Cross River",
+      "city": "London",
+      "state": "Greater London",
+      "country": "UK",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 5.0,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.963775363230917,
+      "lng": 8.353482493708821,
+      "phone_number": "+234 906 629 5091"
+    },
+    {
+      "id": "pro_013",
+      "user_id": null,
+      "title": "Victor Vance",
+      "bio": "Body shop specialist focus on detail and finish.",
+      "location_text": "Calabar, Cross River",
+      "city": "London",
+      "state": "Greater London",
+      "country": "UK",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.966937522711035,
+      "lng": 8.352470347732098,
+      "phone_number": "+234 810 334 5910"
+    },
+    {
+      "id": "pro_014",
+      "user_id": null,
+      "title": "Samuel Stone",
+      "bio": "Experienced photographer capturing life's best moments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1542103749-8ef59b94f47e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.968821918862563,
+      "lng": 8.348168254652547,
+      "phone_number": "+234 906 443 4154"
+    },
+    {
+      "id": "pro_015",
+      "user_id": null,
+      "title": "Alice Wong",
+      "bio": "Mobile app enthusiast specializing in Flutter and React Native.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1531123897727-8f129e16fd3c?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.7,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.975678158167589,
+      "lng": 8.351887859298618,
+      "phone_number": "+234 706 361 6811"
+    },
+    {
+      "id": "pro_016",
+      "user_id": null,
+      "title": "Professional 16",
+      "bio": "Personal trainer helping you reach your peak performance.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.992530426717332,
+      "lng": 8.331489953052175,
+      "phone_number": "+234 706 705 4058"
+    },
+    {
+      "id": "pro_017",
+      "user_id": null,
+      "title": "Professional 17",
+      "bio": "Professional cleaner dedicated to pristine environments.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.972647893560414,
+      "lng": 8.348724997938687,
+      "phone_number": "+234 903 716 1725"
+    },
+    {
+      "id": "pro_018",
+      "user_id": null,
+      "title": "Professional 18",
+      "bio": "Language coach helping you master new tongues.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 5.0,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.9739500533318015,
+      "lng": 8.351054549107419,
+      "phone_number": "+234 706 518 6396"
+    },
+    {
+      "id": "pro_019",
+      "user_id": null,
+      "title": "Professional 19",
+      "bio": "Startup lawyer providing expert legal guidance.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1480427714822-3fd91cc4944d?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.984204748242131,
+      "lng": 8.328954053598743,
+      "phone_number": "+234 706 767 3882"
+    },
+    {
+      "id": "pro_020",
+      "user_id": null,
+      "title": "Professional 20",
+      "bio": "Master mechanic for high-end and hybrid vehicles.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.962961645231084,
+      "lng": 8.358684295878515,
+      "phone_number": "+234 703 394 9703"
+    },
+    {
+      "id": "pro_021",
+      "user_id": null,
+      "title": "Professional 21",
+      "bio": "Digital illustrator creating worlds through art.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.957763303280295,
+      "lng": 8.356583504539394,
+      "phone_number": "+234 806 894 8894"
+    },
+    {
+      "id": "pro_022",
+      "user_id": null,
+      "title": "Professional 22",
+      "bio": "Full stack developer building scalable web applications.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.9878787937010305,
+      "lng": 8.325192635492384,
+      "phone_number": "+234 810 418 8971"
+    },
+    {
+      "id": "pro_023",
+      "user_id": null,
+      "title": "Professional 23",
+      "bio": "Certified yoga instructor promoting holistic wellness.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.8,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.988101267055865,
+      "lng": 8.336711596209074,
+      "phone_number": "+234 816 753 5867"
+    },
+    {
+      "id": "pro_024",
+      "user_id": null,
+      "title": "Professional 24",
+      "bio": "Professional cleaner dedicated to pristine environments.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1507081323227-391be0ad4306?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.8,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.968278577467221,
+      "lng": 8.356329038341892,
+      "phone_number": "+234 803 206 4123"
+    },
+    {
+      "id": "pro_025",
+      "user_id": null,
+      "title": "Professional 25",
+      "bio": "Music teacher bringing out the artist in every student.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.7,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.9779127401222665,
+      "lng": 8.358419115689427,
+      "phone_number": "+234 816 296 3526"
+    },
+    {
+      "id": "pro_026",
+      "user_id": null,
+      "title": "Professional 26",
+      "bio": "HR consultant optimizing team performances.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.979085219946524,
+      "lng": 8.333460595811902,
+      "phone_number": "+234 814 873 9943"
+    },
+    {
+      "id": "pro_027",
+      "user_id": null,
+      "title": "Professional 27",
+      "bio": "Body shop specialist focus on detail and finish.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1590664095641-7fa05f689813?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.992329669401014,
+      "lng": 8.349234057876616,
+      "phone_number": "+234 806 181 7196"
+    },
+    {
+      "id": "pro_028",
+      "user_id": null,
+      "title": "Professional 28",
+      "bio": "Experienced photographer capturing life's best moments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.8,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.968109448782698,
+      "lng": 8.354702692057133,
+      "phone_number": "+234 803 584 4406"
+    },
+    {
+      "id": "pro_029",
+      "user_id": null,
+      "title": "Professional 29",
+      "bio": "Mobile app enthusiast specializing in Flutter and React Native.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.981159181720131,
+      "lng": 8.351206378504486,
+      "phone_number": "+234 814 218 9833"
+    },
+    {
+      "id": "pro_030",
+      "user_id": null,
+      "title": "Professional 30",
+      "bio": "Nutritionist focused on personalized meal planning.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1531123897727-8f129e16fd3c?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.7,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.961960388607249,
+      "lng": 8.330523044741208,
+      "phone_number": "+234 706 956 3965"
+    },
+    {
+      "id": "pro_031",
+      "user_id": null,
+      "title": "Professional 31",
+      "bio": "Electrical expert for all your smart home needs.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.993672608761031,
+      "lng": 8.342454924882198,
+      "phone_number": "+234 906 649 4572"
+    },
+    {
+      "id": "pro_032",
+      "user_id": null,
+      "title": "Professional 32",
+      "bio": "Music teacher bringing out the artist in every student.",
+      "location_text": "Calabar, Cross River",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.955724367932777,
+      "lng": 8.3322326893121,
+      "phone_number": "+234 806 644 2901"
+    },
+    {
+      "id": "pro_033",
+      "user_id": null,
+      "title": "Professional 33",
+      "bio": "HR consultant optimizing team performances.",
+      "location_text": "Calabar, Cross River",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.5,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.995166979127443,
+      "lng": 8.332429421655617,
+      "phone_number": "+234 814 268 9715"
+    },
+    {
+      "id": "pro_034",
+      "user_id": null,
+      "title": "Professional 34",
+      "bio": "Body shop specialist focus on detail and finish.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.0,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.977740260237075,
+      "lng": 8.36169232460648,
+      "phone_number": "+234 803 444 7975"
+    },
+    {
+      "id": "pro_035",
+      "user_id": null,
+      "title": "Professional 35",
+      "bio": "Experienced photographer capturing life's best moments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.9788532641973395,
+      "lng": 8.348976345674734,
+      "phone_number": "+234 810 402 3035"
+    },
+    {
+      "id": "pro_036",
+      "user_id": null,
+      "title": "Professional 36",
+      "bio": "Full stack developer building scalable web applications.",
+      "location_text": "Calabar, Cross River",
+      "city": "London",
+      "state": "Greater London",
+      "country": "UK",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1542103749-8ef59b94f47e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.5,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.96775922766785,
+      "lng": 8.348129363994472,
+      "phone_number": "+234 814 369 7474"
+    },
+    {
+      "id": "pro_037",
+      "user_id": null,
+      "title": "Professional 37",
+      "bio": "Certified yoga instructor promoting holistic wellness.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1531123897727-8f129e16fd3c?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.5,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.986778026922427,
+      "lng": 8.345757163945786,
+      "phone_number": "+234 806 993 3391"
+    },
+    {
+      "id": "pro_038",
+      "user_id": null,
+      "title": "Professional 38",
+      "bio": "Electrical expert for all your smart home needs.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.994257739709433,
+      "lng": 8.332723614192469,
+      "phone_number": "+234 906 177 4751"
+    },
+    {
+      "id": "pro_039",
+      "user_id": null,
+      "title": "Professional 39",
+      "bio": "Language coach helping you master new tongues.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.5,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.971012859399244,
+      "lng": 8.344379186052814,
+      "phone_number": "+234 706 507 5978"
+    },
+    {
+      "id": "pro_040",
+      "user_id": null,
+      "title": "Professional 40",
+      "bio": "Financial advisor for long-term wealth management.",
+      "location_text": "Calabar, Cross River",
+      "city": "London",
+      "state": "Greater London",
+      "country": "UK",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.5,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.976789075338822,
+      "lng": 8.337626342080677,
+      "phone_number": "+234 816 543 8575"
+    },
+    {
+      "id": "pro_041",
+      "user_id": null,
+      "title": "Professional 41",
+      "bio": "Performance tuner for track and street cars.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1480427714822-3fd91cc4944d?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.983209868305979,
+      "lng": 8.346968919197645,
+      "phone_number": "+234 703 104 7048"
+    },
+    {
+      "id": "pro_042",
+      "user_id": null,
+      "title": "Professional 42",
+      "bio": "Experienced photographer capturing life's best moments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.984866924552606,
+      "lng": 8.335611563170845,
+      "phone_number": "+234 816 552 8967"
+    },
+    {
+      "id": "pro_043",
+      "user_id": null,
+      "title": "Professional 43",
+      "bio": "Expert in AI and machine learning automation.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.9776828744990125,
+      "lng": 8.349927137173006,
+      "phone_number": "+234 816 216 6559"
+    },
+    {
+      "id": "pro_044",
+      "user_id": null,
+      "title": "Professional 44",
+      "bio": "Certified yoga instructor promoting holistic wellness.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.9650508166139105,
+      "lng": 8.360607811572535,
+      "phone_number": "+234 906 686 8766"
+    },
+    {
+      "id": "pro_045",
+      "user_id": null,
+      "title": "Professional 45",
+      "bio": "Professional cleaner dedicated to pristine environments.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.7,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.983311140815526,
+      "lng": 8.349725542478467,
+      "phone_number": "+234 810 225 4483"
+    },
+    {
+      "id": "pro_046",
+      "user_id": null,
+      "title": "Professional 46",
+      "bio": "Music teacher bringing out the artist in every student.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1507081323227-391be0ad4306?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.9899354241309215,
+      "lng": 8.322137093901869,
+      "phone_number": "+234 906 939 7420"
+    },
+    {
+      "id": "pro_047",
+      "user_id": null,
+      "title": "Professional 47",
+      "bio": "Financial advisor for long-term wealth management.",
+      "location_text": "Calabar, Cross River",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.9,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.986918875646656,
+      "lng": 8.32629833032495,
+      "phone_number": "+234 706 176 5316"
+    },
+    {
+      "id": "pro_048",
+      "user_id": null,
+      "title": "Professional 48",
+      "bio": "Performance tuner for track and street cars.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.976060915930243,
+      "lng": 8.349901678512069,
+      "phone_number": "+234 706 370 6122"
+    },
+    {
+      "id": "pro_049",
+      "user_id": null,
+      "title": "Professional 49",
+      "bio": "Experienced photographer capturing life's best moments.",
+      "location_text": "Calabar, Cross River",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1501196356658-269eaf11f7ef?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.95838846036446,
+      "lng": 8.35104028700368,
+      "phone_number": "+234 903 587 7555"
+    },
+    {
+      "id": "pro_050",
+      "user_id": null,
+      "title": "Professional 50",
+      "bio": "Mobile app enthusiast specializing in Flutter and React Native.",
+      "location_text": "Calabar, Cross River",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.983631073839713,
+      "lng": 8.357925502280871,
+      "phone_number": "+234 816 419 7509"
+    },
+    {
+      "id": "pro_051",
+      "user_id": null,
+      "title": "Professional 51",
+      "bio": "Certified yoga instructor promoting holistic wellness.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.6,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.983539641840519,
+      "lng": 8.344952526841324,
+      "phone_number": "+234 703 802 8720"
+    },
+    {
+      "id": "pro_052",
+      "user_id": null,
+      "title": "Professional 52",
+      "bio": "Professional cleaner dedicated to pristine environments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.980019929828875,
+      "lng": 8.351733456308303,
+      "phone_number": "+234 814 668 5244"
+    },
+    {
+      "id": "pro_053",
+      "user_id": null,
+      "title": "Professional 53",
+      "bio": "STEM tutor simplifying complex concepts for students.",
+      "location_text": "Calabar, Cross River",
+      "city": "London",
+      "state": "Greater London",
+      "country": "UK",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.9658967318045235,
+      "lng": 8.323999973005026,
+      "phone_number": "+234 906 585 6299"
+    },
+    {
+      "id": "pro_054",
+      "user_id": null,
+      "title": "Professional 54",
+      "bio": "Financial advisor for long-term wealth management.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "professional",
+      "profile_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Professional",
+          "Professional"
+        ]
+      },
+      "lat": 4.995119027596905,
+      "lng": 8.343463598531663,
+      "phone_number": "+234 906 303 8620"
+    },
+    {
+      "id": "pro_055",
+      "user_id": null,
+      "title": "Professional 55",
+      "bio": "Body shop specialist focus on detail and finish.",
+      "location_text": "Calabar, Cross River",
+      "city": "Abuja",
+      "state": "FCT",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "automotive",
+      "profile_img": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.3,
+        "tags": [
+          "Automotive",
+          "Professional"
+        ]
+      },
+      "lat": 4.964487094772206,
+      "lng": 8.332382628430251,
+      "phone_number": "+234 814 795 4162"
+    },
+    {
+      "id": "pro_056",
+      "user_id": null,
+      "title": "Professional 56",
+      "bio": "Experienced photographer capturing life's best moments.",
+      "location_text": "Calabar, Cross River",
+      "city": "Lagos",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "creative",
+      "profile_img": "https://images.unsplash.com/photo-1542103749-8ef59b94f47e?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.1,
+        "tags": [
+          "Creative",
+          "Professional"
+        ]
+      },
+      "lat": 4.963334366619819,
+      "lng": 8.343818805236847,
+      "phone_number": "+234 903 153 5951"
+    },
+    {
+      "id": "pro_057",
+      "user_id": null,
+      "title": "Professional 57",
+      "bio": "Expert in AI and machine learning automation.",
+      "location_text": "Calabar, Cross River",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "tech",
+      "profile_img": "https://images.unsplash.com/photo-1531123897727-8f129e16fd3c?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.2,
+        "tags": [
+          "Tech",
+          "Professional"
+        ]
+      },
+      "lat": 4.977691826817891,
+      "lng": 8.339220347044565,
+      "phone_number": "+234 903 602 1741"
+    },
+    {
+      "id": "pro_058",
+      "user_id": null,
+      "title": "Professional 58",
+      "bio": "Personal trainer helping you reach your peak performance.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "health",
+      "profile_img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 5.0,
+        "tags": [
+          "Health",
+          "Professional"
+        ]
+      },
+      "lat": 4.976937770262081,
+      "lng": 8.359995631963576,
+      "phone_number": "+234 903 606 1316"
+    },
+    {
+      "id": "pro_059",
+      "user_id": null,
+      "title": "Professional 59",
+      "bio": "Master plumber with years of experience in residential care.",
+      "location_text": "Calabar, Cross River",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "is_verified": false,
+      "is_seed": true,
+      "industry": "home",
+      "profile_img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.4,
+        "tags": [
+          "Home",
+          "Professional"
+        ]
+      },
+      "lat": 4.959412566714629,
+      "lng": 8.352154727147875,
+      "phone_number": "+234 906 837 3201"
+    },
+    {
+      "id": "pro_060",
+      "user_id": null,
+      "title": "Professional 60",
+      "bio": "Music teacher bringing out the artist in every student.",
+      "location_text": "Calabar, Cross River",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "country": "Nigeria",
+      "is_verified": true,
+      "is_seed": true,
+      "industry": "education",
+      "profile_img": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80",
+      "meta": {
+        "rating": 4.5,
+        "tags": [
+          "Education",
+          "Professional"
+        ]
+      },
+      "lat": 4.9847653115726684,
+      "lng": 8.344503149898268,
+      "phone_number": "+234 706 758 8081"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv_001",
+      "professional_id": "pro_001",
+      "title": "Design Strategy Session",
+      "description": "A 1-hour focus on Design best practices and roadmapping.",
+      "starting_price": 21000,
+      "ending_price": 55000,
+      "category": "creative",
+      "subcategory": "design",
+      "images": [
+        "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_002",
+      "professional_id": "pro_001",
+      "title": "Premium Design Package",
+      "description": "Full-service execution of your Design project from concept to delivery.",
+      "starting_price": 22000,
+      "ending_price": 60000,
+      "category": "creative",
+      "subcategory": "design",
+      "images": [
+        "https://picsum.photos/seed/srv2/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_003",
+      "professional_id": "pro_001",
+      "title": "Advanced Design Audit",
+      "description": "In-depth review and technical assessment of your Design setup.",
+      "starting_price": 23000,
+      "ending_price": 65000,
+      "category": "creative",
+      "subcategory": "design",
+      "images": [
+        "https://picsum.photos/seed/srv3/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_004",
+      "professional_id": "pro_001",
+      "title": "Design Training Workshop",
+      "description": "Hands-on workshop covering core principles of Design.",
+      "starting_price": 24000,
+      "ending_price": 70000,
+      "category": "creative",
+      "subcategory": "design",
+      "images": [
+        "https://picsum.photos/seed/srv4/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_005",
+      "professional_id": "pro_002",
+      "title": "Web Development Strategy Session",
+      "description": "A 1-hour focus on Web Development best practices and roadmapping.",
+      "starting_price": 25000,
+      "ending_price": 75000,
+      "category": "tech",
+      "subcategory": "web development",
+      "images": [
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_006",
+      "professional_id": "pro_002",
+      "title": "Premium Web Development Package",
+      "description": "Full-service execution of your Web Development project from concept to delivery.",
+      "starting_price": 26000,
+      "ending_price": 80000,
+      "category": "tech",
+      "subcategory": "web development",
+      "images": [
+        "https://picsum.photos/seed/srv6/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_007",
+      "professional_id": "pro_002",
+      "title": "Advanced Web Development Audit",
+      "description": "In-depth review and technical assessment of your Web Development setup.",
+      "starting_price": 27000,
+      "ending_price": 85000,
+      "category": "tech",
+      "subcategory": "web development",
+      "images": [
+        "https://picsum.photos/seed/srv7/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_008",
+      "professional_id": "pro_002",
+      "title": "Web Development Training Workshop",
+      "description": "Hands-on workshop covering core principles of Web Development.",
+      "starting_price": 28000,
+      "ending_price": 90000,
+      "category": "tech",
+      "subcategory": "web development",
+      "images": [
+        "https://picsum.photos/seed/srv8/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_009",
+      "professional_id": "pro_003",
+      "title": "Repair Strategy Session",
+      "description": "A 1-hour focus on Repair best practices and roadmapping.",
+      "starting_price": 29000,
+      "ending_price": 95000,
+      "category": "automotive",
+      "subcategory": "repair",
+      "images": [
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_010",
+      "professional_id": "pro_003",
+      "title": "Premium Repair Package",
+      "description": "Full-service execution of your Repair project from concept to delivery.",
+      "starting_price": 30000,
+      "ending_price": 100000,
+      "category": "automotive",
+      "subcategory": "repair",
+      "images": [
+        "https://picsum.photos/seed/srv10/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_011",
+      "professional_id": "pro_003",
+      "title": "Advanced Repair Audit",
+      "description": "In-depth review and technical assessment of your Repair setup.",
+      "starting_price": 31000,
+      "ending_price": 105000,
+      "category": "automotive",
+      "subcategory": "repair",
+      "images": [
+        "https://picsum.photos/seed/srv11/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_012",
+      "professional_id": "pro_003",
+      "title": "Repair Training Workshop",
+      "description": "Hands-on workshop covering core principles of Repair.",
+      "starting_price": 32000,
+      "ending_price": 110000,
+      "category": "automotive",
+      "subcategory": "repair",
+      "images": [
+        "https://picsum.photos/seed/srv12/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_013",
+      "professional_id": "pro_004",
+      "title": "Wellness Strategy Session",
+      "description": "A 1-hour focus on Wellness best practices and roadmapping.",
+      "starting_price": 33000,
+      "ending_price": 115000,
+      "category": "health",
+      "subcategory": "wellness",
+      "images": [
+        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_014",
+      "professional_id": "pro_004",
+      "title": "Premium Wellness Package",
+      "description": "Full-service execution of your Wellness project from concept to delivery.",
+      "starting_price": 34000,
+      "ending_price": 120000,
+      "category": "health",
+      "subcategory": "wellness",
+      "images": [
+        "https://picsum.photos/seed/srv14/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_015",
+      "professional_id": "pro_004",
+      "title": "Advanced Wellness Audit",
+      "description": "In-depth review and technical assessment of your Wellness setup.",
+      "starting_price": 35000,
+      "ending_price": 125000,
+      "category": "health",
+      "subcategory": "wellness",
+      "images": [
+        "https://picsum.photos/seed/srv15/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_016",
+      "professional_id": "pro_004",
+      "title": "Wellness Training Workshop",
+      "description": "Hands-on workshop covering core principles of Wellness.",
+      "starting_price": 36000,
+      "ending_price": 130000,
+      "category": "health",
+      "subcategory": "wellness",
+      "images": [
+        "https://picsum.photos/seed/srv16/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_017",
+      "professional_id": "pro_005",
+      "title": "Maintenance Strategy Session",
+      "description": "A 1-hour focus on Maintenance best practices and roadmapping.",
+      "starting_price": 37000,
+      "ending_price": 135000,
+      "category": "home",
+      "subcategory": "maintenance",
+      "images": [
+        "https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_018",
+      "professional_id": "pro_005",
+      "title": "Premium Maintenance Package",
+      "description": "Full-service execution of your Maintenance project from concept to delivery.",
+      "starting_price": 38000,
+      "ending_price": 140000,
+      "category": "home",
+      "subcategory": "maintenance",
+      "images": [
+        "https://picsum.photos/seed/srv18/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_019",
+      "professional_id": "pro_005",
+      "title": "Advanced Maintenance Audit",
+      "description": "In-depth review and technical assessment of your Maintenance setup.",
+      "starting_price": 39000,
+      "ending_price": 145000,
+      "category": "home",
+      "subcategory": "maintenance",
+      "images": [
+        "https://picsum.photos/seed/srv19/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_020",
+      "professional_id": "pro_005",
+      "title": "Maintenance Training Workshop",
+      "description": "Hands-on workshop covering core principles of Maintenance.",
+      "starting_price": 40000,
+      "ending_price": 150000,
+      "category": "home",
+      "subcategory": "maintenance",
+      "images": [
+        "https://picsum.photos/seed/srv20/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_021",
+      "professional_id": "pro_006",
+      "title": "STEM Strategy Session",
+      "description": "A 1-hour focus on STEM best practices and roadmapping.",
+      "starting_price": 41000,
+      "ending_price": 155000,
+      "category": "education",
+      "subcategory": "stem",
+      "images": [
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_022",
+      "professional_id": "pro_006",
+      "title": "Premium STEM Package",
+      "description": "Full-service execution of your STEM project from concept to delivery.",
+      "starting_price": 42000,
+      "ending_price": 160000,
+      "category": "education",
+      "subcategory": "stem",
+      "images": [
+        "https://picsum.photos/seed/srv22/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_023",
+      "professional_id": "pro_006",
+      "title": "Advanced STEM Audit",
+      "description": "In-depth review and technical assessment of your STEM setup.",
+      "starting_price": 43000,
+      "ending_price": 165000,
+      "category": "education",
+      "subcategory": "stem",
+      "images": [
+        "https://picsum.photos/seed/srv23/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_024",
+      "professional_id": "pro_006",
+      "title": "STEM Training Workshop",
+      "description": "Hands-on workshop covering core principles of STEM.",
+      "starting_price": 44000,
+      "ending_price": 170000,
+      "category": "education",
+      "subcategory": "stem",
+      "images": [
+        "https://picsum.photos/seed/srv24/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_025",
+      "professional_id": "pro_007",
+      "title": "Photography Strategy Session",
+      "description": "A 1-hour focus on Photography best practices and roadmapping.",
+      "starting_price": 45000,
+      "ending_price": 175000,
+      "category": "creative",
+      "subcategory": "photography",
+      "images": [
+        "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_026",
+      "professional_id": "pro_007",
+      "title": "Premium Photography Package",
+      "description": "Full-service execution of your Photography project from concept to delivery.",
+      "starting_price": 46000,
+      "ending_price": 180000,
+      "category": "creative",
+      "subcategory": "photography",
+      "images": [
+        "https://picsum.photos/seed/srv26/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_027",
+      "professional_id": "pro_007",
+      "title": "Advanced Photography Audit",
+      "description": "In-depth review and technical assessment of your Photography setup.",
+      "starting_price": 47000,
+      "ending_price": 185000,
+      "category": "creative",
+      "subcategory": "photography",
+      "images": [
+        "https://picsum.photos/seed/srv27/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_028",
+      "professional_id": "pro_007",
+      "title": "Photography Training Workshop",
+      "description": "Hands-on workshop covering core principles of Photography.",
+      "starting_price": 48000,
+      "ending_price": 190000,
+      "category": "creative",
+      "subcategory": "photography",
+      "images": [
+        "https://picsum.photos/seed/srv28/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_029",
+      "professional_id": "pro_008",
+      "title": "Legal Strategy Session",
+      "description": "A 1-hour focus on Legal best practices and roadmapping.",
+      "starting_price": 49000,
+      "ending_price": 195000,
+      "category": "professional",
+      "subcategory": "legal",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_030",
+      "professional_id": "pro_008",
+      "title": "Premium Legal Package",
+      "description": "Full-service execution of your Legal project from concept to delivery.",
+      "starting_price": 50000,
+      "ending_price": 200000,
+      "category": "professional",
+      "subcategory": "legal",
+      "images": [
+        "https://picsum.photos/seed/srv30/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_031",
+      "professional_id": "pro_008",
+      "title": "Advanced Legal Audit",
+      "description": "In-depth review and technical assessment of your Legal setup.",
+      "starting_price": 51000,
+      "ending_price": 205000,
+      "category": "professional",
+      "subcategory": "legal",
+      "images": [
+        "https://picsum.photos/seed/srv31/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_032",
+      "professional_id": "pro_008",
+      "title": "Legal Training Workshop",
+      "description": "Hands-on workshop covering core principles of Legal.",
+      "starting_price": 52000,
+      "ending_price": 210000,
+      "category": "professional",
+      "subcategory": "legal",
+      "images": [
+        "https://picsum.photos/seed/srv32/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_033",
+      "professional_id": "pro_009",
+      "title": "Mobile Development Strategy Session",
+      "description": "A 1-hour focus on Mobile Development best practices and roadmapping.",
+      "starting_price": 53000,
+      "ending_price": 215000,
+      "category": "tech",
+      "subcategory": "mobile development",
+      "images": [
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_034",
+      "professional_id": "pro_009",
+      "title": "Premium Mobile Development Package",
+      "description": "Full-service execution of your Mobile Development project from concept to delivery.",
+      "starting_price": 54000,
+      "ending_price": 220000,
+      "category": "tech",
+      "subcategory": "mobile development",
+      "images": [
+        "https://picsum.photos/seed/srv34/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_035",
+      "professional_id": "pro_009",
+      "title": "Advanced Mobile Development Audit",
+      "description": "In-depth review and technical assessment of your Mobile Development setup.",
+      "starting_price": 55000,
+      "ending_price": 225000,
+      "category": "tech",
+      "subcategory": "mobile development",
+      "images": [
+        "https://picsum.photos/seed/srv35/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_036",
+      "professional_id": "pro_009",
+      "title": "Mobile Development Training Workshop",
+      "description": "Hands-on workshop covering core principles of Mobile Development.",
+      "starting_price": 56000,
+      "ending_price": 230000,
+      "category": "tech",
+      "subcategory": "mobile development",
+      "images": [
+        "https://picsum.photos/seed/srv36/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_037",
+      "professional_id": "pro_010",
+      "title": "Nutrition Strategy Session",
+      "description": "A 1-hour focus on Nutrition best practices and roadmapping.",
+      "starting_price": 57000,
+      "ending_price": 235000,
+      "category": "health",
+      "subcategory": "nutrition",
+      "images": [
+        "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_038",
+      "professional_id": "pro_010",
+      "title": "Premium Nutrition Package",
+      "description": "Full-service execution of your Nutrition project from concept to delivery.",
+      "starting_price": 58000,
+      "ending_price": 240000,
+      "category": "health",
+      "subcategory": "nutrition",
+      "images": [
+        "https://picsum.photos/seed/srv38/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_039",
+      "professional_id": "pro_010",
+      "title": "Advanced Nutrition Audit",
+      "description": "In-depth review and technical assessment of your Nutrition setup.",
+      "starting_price": 59000,
+      "ending_price": 245000,
+      "category": "health",
+      "subcategory": "nutrition",
+      "images": [
+        "https://picsum.photos/seed/srv39/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_040",
+      "professional_id": "pro_010",
+      "title": "Nutrition Training Workshop",
+      "description": "Hands-on workshop covering core principles of Nutrition.",
+      "starting_price": 60000,
+      "ending_price": 250000,
+      "category": "health",
+      "subcategory": "nutrition",
+      "images": [
+        "https://picsum.photos/seed/srv40/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_041",
+      "professional_id": "pro_011",
+      "title": "Cleaning Strategy Session",
+      "description": "A 1-hour focus on Cleaning best practices and roadmapping.",
+      "starting_price": 61000,
+      "ending_price": 255000,
+      "category": "home",
+      "subcategory": "cleaning",
+      "images": [
+        "https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_042",
+      "professional_id": "pro_011",
+      "title": "Premium Cleaning Package",
+      "description": "Full-service execution of your Cleaning project from concept to delivery.",
+      "starting_price": 62000,
+      "ending_price": 260000,
+      "category": "home",
+      "subcategory": "cleaning",
+      "images": [
+        "https://picsum.photos/seed/srv42/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_043",
+      "professional_id": "pro_011",
+      "title": "Advanced Cleaning Audit",
+      "description": "In-depth review and technical assessment of your Cleaning setup.",
+      "starting_price": 63000,
+      "ending_price": 265000,
+      "category": "home",
+      "subcategory": "cleaning",
+      "images": [
+        "https://picsum.photos/seed/srv43/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_044",
+      "professional_id": "pro_011",
+      "title": "Cleaning Training Workshop",
+      "description": "Hands-on workshop covering core principles of Cleaning.",
+      "starting_price": 64000,
+      "ending_price": 270000,
+      "category": "home",
+      "subcategory": "cleaning",
+      "images": [
+        "https://picsum.photos/seed/srv44/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_045",
+      "professional_id": "pro_012",
+      "title": "Languages Strategy Session",
+      "description": "A 1-hour focus on Languages best practices and roadmapping.",
+      "starting_price": 65000,
+      "ending_price": 275000,
+      "category": "education",
+      "subcategory": "languages",
+      "images": [
+        "https://images.unsplash.com/photo-1543165796-5426273eaec1?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_046",
+      "professional_id": "pro_012",
+      "title": "Premium Languages Package",
+      "description": "Full-service execution of your Languages project from concept to delivery.",
+      "starting_price": 66000,
+      "ending_price": 280000,
+      "category": "education",
+      "subcategory": "languages",
+      "images": [
+        "https://picsum.photos/seed/srv46/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_047",
+      "professional_id": "pro_012",
+      "title": "Advanced Languages Audit",
+      "description": "In-depth review and technical assessment of your Languages setup.",
+      "starting_price": 67000,
+      "ending_price": 285000,
+      "category": "education",
+      "subcategory": "languages",
+      "images": [
+        "https://picsum.photos/seed/srv47/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_048",
+      "professional_id": "pro_012",
+      "title": "Languages Training Workshop",
+      "description": "Hands-on workshop covering core principles of Languages.",
+      "starting_price": 68000,
+      "ending_price": 290000,
+      "category": "education",
+      "subcategory": "languages",
+      "images": [
+        "https://picsum.photos/seed/srv48/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_049",
+      "professional_id": "pro_013",
+      "title": "Digital Art Strategy Session",
+      "description": "A 1-hour focus on Digital Art best practices and roadmapping.",
+      "starting_price": 69000,
+      "ending_price": 295000,
+      "category": "creative",
+      "subcategory": "digital art",
+      "images": [
+        "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_050",
+      "professional_id": "pro_013",
+      "title": "Premium Digital Art Package",
+      "description": "Full-service execution of your Digital Art project from concept to delivery.",
+      "starting_price": 70000,
+      "ending_price": 300000,
+      "category": "creative",
+      "subcategory": "digital art",
+      "images": [
+        "https://picsum.photos/seed/srv50/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_051",
+      "professional_id": "pro_013",
+      "title": "Advanced Digital Art Audit",
+      "description": "In-depth review and technical assessment of your Digital Art setup.",
+      "starting_price": 71000,
+      "ending_price": 305000,
+      "category": "creative",
+      "subcategory": "digital art",
+      "images": [
+        "https://picsum.photos/seed/srv51/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_052",
+      "professional_id": "pro_013",
+      "title": "Digital Art Training Workshop",
+      "description": "Hands-on workshop covering core principles of Digital Art.",
+      "starting_price": 72000,
+      "ending_price": 310000,
+      "category": "creative",
+      "subcategory": "digital art",
+      "images": [
+        "https://picsum.photos/seed/srv52/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_053",
+      "professional_id": "pro_014",
+      "title": "Finance Strategy Session",
+      "description": "A 1-hour focus on Finance best practices and roadmapping.",
+      "starting_price": 73000,
+      "ending_price": 315000,
+      "category": "professional",
+      "subcategory": "finance",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_054",
+      "professional_id": "pro_014",
+      "title": "Premium Finance Package",
+      "description": "Full-service execution of your Finance project from concept to delivery.",
+      "starting_price": 74000,
+      "ending_price": 320000,
+      "category": "professional",
+      "subcategory": "finance",
+      "images": [
+        "https://picsum.photos/seed/srv54/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_055",
+      "professional_id": "pro_014",
+      "title": "Advanced Finance Audit",
+      "description": "In-depth review and technical assessment of your Finance setup.",
+      "starting_price": 75000,
+      "ending_price": 325000,
+      "category": "professional",
+      "subcategory": "finance",
+      "images": [
+        "https://picsum.photos/seed/srv55/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_056",
+      "professional_id": "pro_014",
+      "title": "Finance Training Workshop",
+      "description": "Hands-on workshop covering core principles of Finance.",
+      "starting_price": 76000,
+      "ending_price": 330000,
+      "category": "professional",
+      "subcategory": "finance",
+      "images": [
+        "https://picsum.photos/seed/srv56/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_057",
+      "professional_id": "pro_015",
+      "title": "AI & Automation Strategy Session",
+      "description": "A 1-hour focus on AI & Automation best practices and roadmapping.",
+      "starting_price": 77000,
+      "ending_price": 335000,
+      "category": "tech",
+      "subcategory": "ai & automation",
+      "images": [
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_058",
+      "professional_id": "pro_015",
+      "title": "Premium AI & Automation Package",
+      "description": "Full-service execution of your AI & Automation project from concept to delivery.",
+      "starting_price": 78000,
+      "ending_price": 340000,
+      "category": "tech",
+      "subcategory": "ai & automation",
+      "images": [
+        "https://picsum.photos/seed/srv58/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_059",
+      "professional_id": "pro_015",
+      "title": "Advanced AI & Automation Audit",
+      "description": "In-depth review and technical assessment of your AI & Automation setup.",
+      "starting_price": 79000,
+      "ending_price": 345000,
+      "category": "tech",
+      "subcategory": "ai & automation",
+      "images": [
+        "https://picsum.photos/seed/srv59/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
+    },
+    {
+      "id": "srv_060",
+      "professional_id": "pro_015",
+      "title": "AI & Automation Training Workshop",
+      "description": "Hands-on workshop covering core principles of AI & Automation.",
+      "starting_price": 80000,
+      "ending_price": 350000,
+      "category": "tech",
+      "subcategory": "ai & automation",
+      "images": [
+        "https://picsum.photos/seed/srv60/800/600"
+      ],
+      "is_active": true,
+      "is_seed": true
     }
   ]
 }

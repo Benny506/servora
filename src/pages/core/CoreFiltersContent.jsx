@@ -1,3 +1,6 @@
+import { professionalIndustries } from './professionals/prosData.js'
+import { serviceCategories } from './services/servicesData.js'
+
 export default function CoreFiltersContent({
   mode,
   query,
@@ -12,6 +15,10 @@ export default function CoreFiltersContent({
   setMaxPrice,
   withMedia,
   setWithMedia,
+  serviceCategory,
+  setServiceCategory,
+  proIndustry,
+  setProIndustry,
   onClear,
   showApply = false,
   onApply,
@@ -34,6 +41,25 @@ export default function CoreFiltersContent({
 
       {mode === 'professionals' ? (
         <>
+          <div>
+            <label className="form-label sv-form-label" htmlFor="sv-core-pro-industry">
+              Industry
+            </label>
+            <select
+              id="sv-core-pro-industry"
+              className="form-select sv-form-control"
+              value={proIndustry}
+              onChange={(e) => setProIndustry(e.target.value)}
+            >
+              <option value="">All industries</option>
+              {professionalIndustries.map((c) => (
+                <option key={c} value={c}>
+                  {c.charAt(0).toUpperCase() + c.slice(1)}
+                </option>
+              ))}
+            </select>
+          </div>
+
           <div>
             <label className="form-label sv-form-label" htmlFor="sv-core-address-any">
               Address
@@ -62,6 +88,25 @@ export default function CoreFiltersContent({
         </>
       ) : (
         <>
+          <div>
+            <label className="form-label sv-form-label" htmlFor="sv-core-service-category">
+              Industry
+            </label>
+            <select
+              id="sv-core-service-category"
+              className="form-select sv-form-control"
+              value={serviceCategory}
+              onChange={(e) => setServiceCategory(e.target.value)}
+            >
+              <option value="">All industries</option>
+              {serviceCategories.map((c) => (
+                <option key={c} value={c}>
+                  {c.charAt(0).toUpperCase() + c.slice(1)}
+                </option>
+              ))}
+            </select>
+          </div>
+
           <div className="row g-2">
             <div className="col-6">
               <label className="form-label sv-form-label" htmlFor="sv-core-min-any">

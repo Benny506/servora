@@ -7,8 +7,13 @@ export default function ProtectedRoute({ children }) {
   const dispatch = useDispatch()
   const location = useLocation()
   const user = useSelector((state) => state.auth.user)
+  const isAdminAuthenticated = useSelector((state) => state.admin.isAdminAuthenticated)
   const bootstrapStatus = useSelector((state) => state.auth.bootstrapStatus)
   const hasAlertedRef = useRef(false)
+
+  if (isAdminAuthenticated) {
+    return <Navigate to="/admin/dashboard" replace />
+  }
 
   useEffect(() => {
     if (bootstrapStatus === 'loading') return

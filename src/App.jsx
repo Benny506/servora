@@ -23,16 +23,40 @@ import Security from './pages/dashboard/sections/Security.jsx'
 import { authBootstrap } from './store/authSlice.js'
 import { bootstrapDiscovery } from './store/discoverySlice.js'
 
+// Admin Citadel
+import AdminLogin from './pages/admin/AdminLogin.jsx'
+import AdminOverview from './pages/admin/AdminOverview.jsx'
+import AdminGuard from './components/AdminGuard.jsx'
+
 function App() {
   const dispatch = useDispatch()
   const bootstrapStatus = useSelector((state) => state.auth.bootstrapStatus)
 
   useEffect(() => {
+    // Admin Citadel Mutual Exclusion Handshake
+    const adminSession = localStorage.getItem('servora_admin_session')
+    if (adminSession) {
+      // Purge student/professional traces if Admin is active
+      const purge = async () => {
+        try {
+          // Silent sign out from Supabase if active
+          const { data } = await supabase.auth.getSession()
+          if (data?.session) {
+            await supabase.auth.signOut()
+            import('./store/authSlice.js').then(m => dispatch(m.clearAuth()))
+          }
+        } catch (e) {
+          console.error("Citadel Handshake Error:", e)
+        }
+      }
+      purge()
+    }
+
     dispatch(authBootstrap({ source: 'auto' }))
     dispatch(bootstrapDiscovery())
   }, [dispatch])
 
-  if (bootstrapStatus === 'loading') {
+  if (bootstrapStatus === 'loading' && !localStorage.getItem('servora_admin_session')) {
     return <AppLoader />
   }
 
@@ -48,6 +72,18 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/verify-otp" element={<VerifyOtp />} />
         <Route path="/professional-profile" element={<ProfessionalProfileCreate />} />
+        
+        {/* Admin Citadel */}
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route 
+          path="/admin/dashboard" 
+          element={
+            <AdminGuard>
+              <AdminOverview />
+            </AdminGuard>
+          } 
+        />
+
         <Route
           path="/dashboard"
           element={

@@ -31,7 +31,7 @@ export default function ProfessionalCard({ professional, imgUrl, onMessage, onVi
         ) : null}
 
         <div className="d-flex gap-2 flex-wrap mt-3">
-          {!isSelf ? (
+          {!isSelf && !professional?.is_seed ? (
             <button type="button" className="btn btn-primary" onClick={onMessage}>
               Message
             </button>

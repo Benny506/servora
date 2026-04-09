@@ -1,6 +1,9 @@
 import ProfessionalCard from '../../components/professional/ProfessionalCard.jsx'
+import { useMessaging } from '../../hooks/useMessaging.js'
 
 export default function ProfessionalsGrid({ pros = [], proImgUrls = {}, isLoggedIn, navigate }) {
+  const { initiateConversation } = useMessaging()
+
   if (pros.length === 0) {
     return (
       <div className="sv-card mt-2">
@@ -20,11 +23,7 @@ export default function ProfessionalsGrid({ pros = [], proImgUrls = {}, isLogged
             <ProfessionalCard
               professional={p}
               imgUrl={imgUrl}
-              onMessage={() =>
-                navigate(isLoggedIn ? '/dashboard/messages' : '/login', {
-                  state: isLoggedIn ? undefined : { from: '/core' },
-                })
-              }
+              onMessage={() => initiateConversation(p.user_id)}
               onView={() => navigate(`/pro/${p.id}`)}
             />
           </div>
